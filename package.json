@@ -1,0 +1,9 @@
+{
+  "name": "mindyourstress",
+  "version": "1.0.0",
+  "description": "Serious game that let you find your own speed",
+  "author": "Wietse Neven",
+  "dependencies": {
+    "phaser": "file:phaser"
+  }
+}
