@@ -10,17 +10,22 @@
 				background: #000;
 			}
 		</style>
+
 		<script src="node_modules/phaser/build/phaser.min.js"></script>
+		<script src="lib/js/stress_preload.js"></script>
+		<script src="lib/js/stress_menu.js"></script>
+		<script src="lib/js/stress_level.js"></script>
+
 		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
 		<meta name="apple-mobile-web-app-capable" content="yes" />
 		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 	</head>
 	<body>
-	<script src="lib/scenes/home/home.js"></script>
-	<script src="lib/obstacles/obstacles.js"></script>
-	<script src="lib/Game.js"></script>
-	<script type="text/javascript">
-		game.state.add('Game', stressGame, true);
-	</script>
+
+	<!--Load the levels-->
+	<script src="lib/js/levels/stress_level-home.js"></script>
+
+	<script src="lib/js/stress_game.js"></script>
+
 	</body>
 </html>
